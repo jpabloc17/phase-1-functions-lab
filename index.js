@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(location){
-    return Math.abs(42 - location);
+    return Math.abs(42 - location); //
 }
 
 function distanceFromHqInFeet(blocks){
@@ -26,8 +26,3 @@ function calculatesFarePrice(start, destination){
     return "cannot travel that far";
    }
 }
-
-console.log(distanceFromHqInBlocks(10));
-console.log(distanceFromHqInFeet(10));
-console.log(distanceTravelledInFeet(43,48));
-console.log(calculatesFarePrice(42,126));
